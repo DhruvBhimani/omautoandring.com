@@ -1,0 +1,423 @@
+/* Rightbar Nav */
+
+#rightbar_about {
+    height: 120px;
+}
+
+/* Content */
+
+#content_wrapper {
+    text-align: center;
+    position: absolute;
+    margin-left: 220px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#content_wrapper_main {
+    width: 85%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section_wrapper {
+    margin-bottom: 40px;
+}
+
+#about_vision_wrapper {
+    text-align: left;
+    display: inline-block;
+    vertical-align: center;
+    width: 100%;
+}
+
+#vision_hr {
+    width: 100%;
+    height: 1px;
+    border-top: 4px solid #17597d;
+}
+
+#vision_text {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+#vision_title {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #5f5f5f;
+}
+
+.vision_picture {
+    display: inline-block;
+    margin-top: 30px;
+    height: 155px;
+    width: 23.5%;
+    margin-right: 2%;
+    background-size: cover;
+}
+
+#vision_pic01 {
+    background-image: url('../assets/about/Image1-1.jpg');
+}
+
+#vision_pic001 {
+    background-image: url('../Image2.jpg');
+}
+
+#vision_pic1 {
+    background-image: url('../assets/about/banner1.jpg');
+}
+
+#vision_pic2 {
+    background-image: url('../assets/about/banner2.jpg');
+}
+
+#vision_pic3 {
+    background-image: url('../assets/about/banner3.jpg');
+}
+
+#vision_pic4 {
+    background-image: url('../assets/about/banner4.jpg');
+}
+
+.vision_picture:last-child {
+    margin-right: 0;
+}
+
+#about_mission_wrapper {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    /*margin-left:7%;*/
+    margin-top: 10px;
+}
+
+#mission_hr {
+    width: 100%;
+    height: 1px;
+}
+
+#mission_title {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #5f5f5f;
+}
+
+.mission_text {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: .01em;
+}
+
+#story_section {
+    background-color: #17597d;
+    padding: 80px
+}
+
+#story_icon {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../assets/about/story.png');
+    width: 85px;
+    height: 70px;
+}
+
+#vision_icon {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../assets/about/vision.png');
+    width: 85px;
+    height: 70px;
+}
+
+#mission_icon {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../assets/about/mission.png');
+    width: 85px;
+    height: 70px;
+}
+
+#story_title {
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 10px;
+}
+
+#story_text {
+    margin-top: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+#team_title {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.team_portrait {
+    width: 250px;
+    height: 250px;
+    background-color: #e1e1e1;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.team_portrait:hover {
+    background-position: bottom;
+}
+
+.team_portrait:hover>.team_text {
+    background-color: white;
+    opacity: .95;
+}
+
+.team_portrait:hover>*>* {
+    color: #303030;
+}
+
+.team_text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    z-index: 2;
+    text-align: left;
+}
+
+.team_name {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-left: 13px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 1px
+}
+
+.team-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 13px;
+}
+
+.team_text_wrapper {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    opacity: .4;
+}
+
+#banait {
+    background-image: url('../assets/about/leadership_portraits/prakash_banait.jpg');
+}
+
+#shruti {
+    background-image: url('../assets/about/leadership_portraits/shruti-combined.jpg');
+}
+
+#shruti {
+    background-image: url('../assets/about/leadership_portraits/shruti.jpg');
+}
+
+#anish {
+    background-image: url('../assets/about/leadership_portraits/tripathi.jpg');
+}
+
+#manoj {
+    background-image: url('../assets/about/leadership_portraits/solanki.jpg');
+}
+
+#sahney {
+    background-image: url('../assets/about/leadership_portraits/trilochan_sahney.jpg');
+}
+
+#zaveri {
+    background-image: url('../assets/about/leadership_portraits/zaveriz.jpg');
+}
+
+#rangani {
+    background-image: url('../assets/about/leadership_portraits/ranganiz.jpg');
+}
+
+#hemant {
+    background-image: url('../assets/about/leadership_portraits/hemantz.jpg');
+}
+
+#kohli {
+    background-image: url('../assets/about/leadership_portraits/arvinder_kohli.jpg');
+}
+
+#shibu {
+    background-image: url('../assets/about/leadership_portraits/shibu-warrier.jpg');
+}
+
+#ravi {
+    background-image: url('../assets/about/leadership_portraits/ravi-teltia.jpg');
+}
+
+#kishore {
+    background-image: url('../assets/about/leadership_portraits/kishore-ochani.jpg');
+}
+
+#saravanan {
+    background-image: url('../assets/about/leadership_portraits/saravanan-muthiah.jpg');
+}
+
+#kumar {
+    background-image: url('../assets/about/leadership_portraits/prateek_kumar.jpg');
+}
+
+#mathur {
+    background-image: url('../assets/about/leadership_portraits/mathurz.jpg');
+}
+
+#mitra {
+    background-image: url('../assets/about/leadership_portraits/mitraz.jpg');
+}
+
+#rk {
+    background-image: url('../assets/about/leadership_portraits/rkz.jpg');
+}
+
+#salunke {
+    background-image: url('../assets/about/leadership_portraits/salunkez.jpg');
+}
+
+#parida {
+    background-image: url('../assets/about/leadership_portraits/sanjeev_parida.jpg');
+}
+
+#senapati {
+    background-image: url('../assets/about/leadership_portraits/sakti_senapati.jpg');
+}
+
+#sethi {
+    background-image: url('../assets/about/leadership_portraits/rajkumar_sethi.jpg');
+}
+
+#singhl {
+    background-image: url('../assets/about/leadership_portraits/singhlz.jpg');
+}
+
+#tanushree {
+    background-image: url('../assets/about/leadership_portraits/tanushree_bagrodia.jpg');
+}
+
+#csr_hr {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid #17597d;
+}
+
+#organization_chart_title a {
+    font-size: 28px;
+    text-align: center;
+    color: #454545;
+    margin-bottom: 20px;
+}
+
+#organization_chart_title a:hover {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#organization_chart_title {
+    font-size: 34px;
+    text-align: center;
+    color: #454545;
+    margin-bottom: 20px;
+}
+
+#button {
+    padding: 12px;
+    width: 210px;
+    background-color: #f1f1f1;
+    margin: auto;
+}
+
+#button:hover {
+    background-color: #3a3a3a;
+}
+
+#organization_chart_text {
+    font-size: 11px;
+    color: #7d7d7d;
+}
+
+#csr_title {
+    font-size: 24px;
+    text-align: left;
+    color: #454545;
+}
+
+#videotitle {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#videocaption {
+    font-size: 24px;
+    text-align: center;
+    color: #454545;
+}
+
+#videocaption strong {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #454545;
+}
+
+#csr_text {
+    margin-top: 22px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+    line-height: 22px;
+    letter-spacing: .01em;
+}
