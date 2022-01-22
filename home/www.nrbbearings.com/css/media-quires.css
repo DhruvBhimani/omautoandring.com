@@ -1,0 +1,1842 @@
+@charset "utf-8";
+/* CSS Document */
+
+.desk_top {
+    position: relative;
+    display: block;
+}
+
+.other_device {
+    display: none;
+}
+
+.main_top_head {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    position: fixed;
+    display: none;
+}
+
+.main_top_head #logo_device {
+    width: 50%;
+    height: auto;
+    background: #fff;
+    position: relative;
+}
+
+.main_top_head #quickEnq {
+    position: relative;
+    top: 25px;
+    right: 0px;
+    width: auto;
+    height: auto;
+    z-index: 500;
+    background: #fff;
+    display: block;
+}
+
+.panel {
+    display: none;
+    width: 75%;
+    padding: 0px;
+    background-color: none;
+    /*box-shadow: inset 0 0 5px 5px #222;*/
+}
+
+.submitBtn {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400 normal;
+    background-color: #17597d;
+    width: auto;
+    padding: 5px !important;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    z-index: 9999;
+    position: relative;
+    float: right;
+    font-size: 14px !important;
+    bottom: 15%;
+    right: 10%;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 269px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 12% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+    }
+    #title_content_background img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        background: none;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #title_content_text {
+        color: #17597d;
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #careers_content_text {
+        color: white;
+        font-size: 35px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px !important;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: 250px !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 25% !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 0%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        display: none !important;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+    /*about text start*/
+    #content_wrapper {
+        text-align: center;
+        position: absolute;
+        margin-left: 0px !important;
+        top: 60px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .vision_picture {
+        display: inline-block;
+        margin-top: 30px;
+        height: 155px;
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+        background-size: cover;
+    }
+    #vision_text {
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px !important;
+    }
+    #story_section {
+        background-color: #17597d;
+        padding: 20px
+    }
+    .team_portrait {
+        width: 90% !important;
+        height: 250px;
+        background-color: #e1e1e1;
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 319px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 12% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+    }
+    #title_content_background img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        background: none;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px !important;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: 300px !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 18% !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 2%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 359px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 12% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #center_content_title {
+        width: 100% !important;
+        position: relative !important;
+        height: auto !important;
+        display: block;
+        clear: both !important;
+        float: left !important;
+    }
+    #center_content_about {
+        width: 100% !important;
+        position: relative !important;
+        height: auto !important;
+        display: block;
+        clear: both !important;
+        float: left !important;
+    }
+    #center_content_eandd {
+        width: 100% !important;
+        position: relative !important;
+        height: auto !important;
+        display: block;
+        clear: both !important;
+        float: left !important;
+    }
+    #center_content_productfinder {
+        width: 100% !important;
+        position: relative !important;
+        height: auto !important;
+        display: block;
+        clear: both !important;
+        float: left !important;
+    }
+    #center_content_careers {
+        width: 100% !important;
+        position: relative !important;
+        height: auto !important;
+        clear: both !important;
+        display: block;
+        float: left !important;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+    }
+    #title_content_background img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        background: none;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px !important;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: 300px !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 18% !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 2%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+        display: none;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width: 479px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 12% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+    }
+    #title_content_background img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        background: none;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px !important;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: 300px !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 18% !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 2%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+        display: none;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 10% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #title_content_background img {
+        visibility: hidden;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 0px !important;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: auto !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 55px !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 2%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+        display: none;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width :767px) {
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .desk_top {
+        position: relative;
+        display: none;
+    }
+    .main_top_head {
+        width: 100%;
+        height: auto;
+        float: left;
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        display: block;
+    }
+    .main_top_head #logo_device {
+        width: 50%;
+        height: auto;
+        background: #fff;
+        position: relative;
+        float: left;
+    }
+    .main_top_head #quickEnq {
+        position: relative;
+        top: 5px;
+        right: 0px;
+        height: auto;
+        z-index: 500;
+        background: #17597d;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 10% !important;
+    }
+    .main_top_head #quickEnq img {
+        width: 100%;
+        height: auto;
+    }
+    .center_content_padding {
+        display: none !important;
+        width: 0 !important;
+    }
+    #certification_wrapper {
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        bottom: 20px;
+        left: 20px;
+    }
+    .center_content {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left !important;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .center_content_main {
+        position: relative;
+        margin-left: 0px !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    #title_content_background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 0px !important;
+        margin: 0px;
+        clear: both;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #title_content_background img {
+        visibility: hidden;
+    }
+    #center_content_title_main {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        margin-top: 75px;
+    }
+    #title_content_button {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        float: left;
+        clear: both;
+    }
+    #center_content_about_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #about_content_text {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 5px;
+        border-bottom: 4px solid white;
+    }
+    #center_content_about {
+        background: url(../assets/homepage/content_about_back.jpg) repeat center !important;
+    }
+    #about_content_button {
+        width: 100% !important;
+        text-align: center;
+    }
+    .center_content_main_wrapper {
+        margin: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        float: left;
+    }
+    #center_content_eandd_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #eandd_content_background2 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 10px !important;
+        background-image: none !important;
+        width: 45% !important;
+        height: auto !important;
+    }
+    #eandd_content_background3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        background-image: none !important;
+        width: 45% !important;
+        height: auto !important;
+    }
+    #eandd_content_background1 {
+        display: inline-block;
+        margin-top: 10px;
+        position: relative;
+        background-image: none !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+    #eandd_content_background2 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background3 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_background1 img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+    #eandd_content_button {
+        margin-top: 13px;
+        width: 100% !important;
+        text-align: center;
+    }
+    other_device {
+        display: block;
+        position: relative;
+        float: left;
+        width: 98% !important;
+        height: auto !important;
+        background: #fff !important;
+        overflow: auto;
+    }
+    .panel {
+        display: none;
+        width: 100% !important;
+        padding: 0px !important;
+        background-color: #fff;
+        /*box-shadow: inset 0 0 5px 5px #222;*/
+        position: fixed;
+         !important;
+        margin-top: 55px !important;
+        height: 100% !important;
+        padding-bottom: 100px !important;
+        float: left !important;
+        padding: 2%;
+    }
+    .leftbar_nav {
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+        height: 400px !important;
+        margin: 0px !important;
+        z-index: 2;
+    }
+    .leftbar_nav_blackdrop {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        float: left;
+        z-index: 1;
+        background-color: black;
+        opacity: .7;
+        display: none;
+    }
+    #certification_wrapper {
+        position: relative !important;
+        height: auto !important;
+        float: left;
+        bottom: 20px;
+        left: 20px;
+    }
+    #rightbar_nav {
+        position: fixed;
+        width: 170px;
+        height: 100%;
+        right: 0;
+        top: 75px;
+        z-index: 999999;
+        text-align: center;
+        pointer-events: none;
+    }
+    #logo_wrapper {
+        height: 85px;
+        border-bottom: 1px solid #e1e1e1;
+        backface-visibility: hidden;
+        visibility: hidden !important;
+    }
+    #center_content_eandd {
+        background-color: white;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    #center_content_careers_main {
+        width: 100% !important;
+        height: auto !important;
+    }
+    #careers_content_button {
+        width: 100%;
+        text-align: center;
+    }
+    #center_content_productfinder_main {
+        width: 100% !important;
+        height: auto;
+    }
+    #productfinder_picture {
+        width: 100% !important;
+        height: auto !important;
+        background: none;
+        text-align: center;
+    }
+    #productfinder_picture img {
+        width: 100% !important;
+        float: left;
+        height: auto !important;
+        display: block;
+    }
+    #productfinder_content_button {
+        margin-top: 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    #center_content_productfinder {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {}
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {}
